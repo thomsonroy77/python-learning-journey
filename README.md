@@ -1,53 +1,68 @@
-
 # Python Learning Journey 🐍
 
-My Python learning exercises and projects. This repository documents my progress as I learn Python programming, problem-solving, and software development.
+Welcome to my Python learning journey! This repository contains practical projects I'm building while learning Python programming, problem-solving, and software development.
 
-## 📂 Projects
+## Projects
 
-### 1. Interactive Python Calculator
+### 1. Interactive Calculator
 
 A command-line calculator built using Python.
 
-**Features:**
+**Features**
 - Addition, subtraction, multiplication, and division
-- Multiple calculations without restarting
+- Repeated calculations without restarting
 - Input validation
-- Division-by-zero protection
-- Exit command to close the calculator
+- Division-by-zero handling
+- Exit option
 
-**Technologies:** Python 3
-
-**How to run:**
-
-1. Install Python 3.
-2. Clone this repository.
-3. Open the project folder in your terminal.
-4. Run:
-
+**Run the project**
 ```bash
 python calculator.py
 ```
 
-## 📚 Concepts Practised
+### 2. To-Do List Application
+
+A command-line task manager that stores tasks locally using JSON.
+
+**Features**
+- Add new tasks
+- View saved tasks
+- Prevent duplicate tasks
+- Mark tasks as completed
+- Delete tasks with confirmation
+- Save and load tasks automatically
+
+**Run the project**
+```bash
+python todo-list/todo.py
+```
+
+Tasks are stored locally in `todo-list/tasks.json`. This personal data file is excluded from Git.
+
+## Concepts Practised
 
 - Variables and data types
-- User input and output
-- Conditional statements (`if`, `elif`, `else`)
-- Arithmetic operators
-- While loops
-- Exception handling (`try` and `except`)
-- Git and GitHub fundamentals
+- Conditional statements
+- Loops
+- Functions
+- Lists and dictionaries
+- User input and validation
+- Exception handling
+- File handling
+- JSON data storage
+- Git and GitHub
 
-## 🎯 Learning Goals
+## Technologies
 
-- Improve Python programming skills
-- Build practical projects
-- Learn software development fundamentals
-- Contribute to open-source projects
-- Explore Artificial Intelligence and Robotics
+- Python
+- Visual Studio Code
+- Git
+- GitHub
+
+## Goals
+
+I'm building practical programming skills through progressively more challenging projects, with the long-term goal of contributing to open-source software.
 
 ---
 
-*This repository is part of my ongoing programming journey.*
-
+**This repository is actively being developed as part of my Python learning journey.**
