@@ -222,3 +222,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 todo-list/tasks.json
+expense-tracker/expenses.json

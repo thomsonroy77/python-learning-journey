@@ -8,14 +8,14 @@ Welcome to my Python learning journey! This repository contains practical projec
 
 A command-line calculator built using Python.
 
-**Features**
+**Features:**
 - Addition, subtraction, multiplication, and division
 - Repeated calculations without restarting
 - Input validation
 - Division-by-zero handling
 - Exit option
 
-**Run the project**
+**Run the project:**
 ```bash
 python calculator.py
 ```
@@ -24,7 +24,7 @@ python calculator.py
 
 A command-line task manager that stores tasks locally using JSON.
 
-**Features**
+**Features:**
 - Add new tasks
 - View saved tasks
 - Prevent duplicate tasks
@@ -32,12 +32,33 @@ A command-line task manager that stores tasks locally using JSON.
 - Delete tasks with confirmation
 - Save and load tasks automatically
 
-**Run the project**
+**Run the project:**
 ```bash
 python todo-list/todo.py
 ```
 
 Tasks are stored locally in `todo-list/tasks.json`. This personal data file is excluded from Git.
+
+### 3. Expense Tracker
+
+A command-line expense tracking application built with Python.
+
+**Features:**
+- Add and store expenses
+- View all recorded expenses
+- Calculate total spending
+- Generate spending summaries by category
+- Generate monthly expense reports
+- Delete expenses with confirmation
+- Persistent JSON storage
+- Input validation and error handling
+
+**Run the project:**
+```bash
+python expense-tracker/expense_tracker.py
+```
+
+Expenses are stored locally in `expense-tracker/expenses.json`. This personal financial data file is excluded from Git.
 
 ## Concepts Practised
 
