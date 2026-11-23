@@ -223,3 +223,9 @@ __marimo__/
 .streamlit/secrets.toml
 todo-list/tasks.json
 expense-tracker/expenses.json
+
+# Temporary weather app test
+weather-app/retry_test.py
+
+# Local editor settings
+.vscode/
